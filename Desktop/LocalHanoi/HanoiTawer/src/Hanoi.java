@@ -2,6 +2,7 @@ public class Hanoi {
   public static void main(String[] args) {
     int nDisks = 4;
     doTowers(nDisks, 'A', 'B', 'C');
+    System.out.println("Done");
   }
 
   public static void doTowers(int topN, char from, char inter, char to) {
